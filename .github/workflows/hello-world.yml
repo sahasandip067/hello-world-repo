@@ -4,8 +4,5 @@ jobs:
     hello-job:
         runs-on: ubuntu-latest
         steps:
-        - name: checkout repo
-          uses: actions/checkout@v4
-
-        - name: List and read files
+        - name: Echo text
           run: echo "Hello, world!"
